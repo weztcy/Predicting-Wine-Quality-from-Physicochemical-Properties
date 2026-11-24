@@ -1,0 +1,36 @@
+{
+  "leakage_analysis": {
+    "group_split_no_leakage": {
+      "MAE": 0.5180136963047564,
+      "RMSE": 0.6769314336963353,
+      "R2": 0.4191460391733489,
+      "Within_1_pt_acc": 88.2800608828006
+    },
+    "random_split_with_leakage": {
+      "MAE": 0.4015941429450896,
+      "RMSE": 0.5879990428379946,
+      "R2": 0.5318605403707486,
+      "Within_1_pt_acc": 90.07692307692308
+    },
+    "leaked_test_rows_count": 359,
+    "leaked_test_rows_pct": 27.615384615384613
+  },
+  "deduplication_analysis": {
+    "deduplicated_dataset_rows": 5320,
+    "metrics": {
+      "MAE": 0.5106343307138392,
+      "RMSE": 0.6639212133033168,
+      "R2": 0.41374126926509636,
+      "Within_1_pt_acc": 87.96992481203007
+    }
+  },
+  "white_only_analysis": {
+    "white_rows": 4898,
+    "metrics": {
+      "MAE": 0.520226076440056,
+      "RMSE": 0.672366280054705,
+      "R2": 0.39223708089906484,
+      "Within_1_pt_acc": 87.5
+    }
+  }
+}
